@@ -40,6 +40,7 @@ class HomeController extends Controller
     public function dashboard()
     {
         $page = 'dashboard';
+		$title = 'hello one';
         return view('home', compact('page'));
     }
 
